@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- JavaScript Bundle with Popper -->
+    <link rel="stylesheet" href="/css/main.css">
+   
+    <!-- JavaScript Bundle with Popper -->
+    <script src="/js/main.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    <title>Trang chủ</title>
+</head>
+<body>
+    <header>
+        <div id="logo">
+            <img src="/images/logo.png" alt=""> <br>
+            <div style="color: #fff;">ASTRONOMIA</div>
+        </div>
+        <nav id="nav2" class="navBar2">
+            <a href="#" onclick="showmenu()"><img src="/images/menu.jpg" alt="" height="30px" width="30px"></a>
+        </nav>
+        <div id="menupopup">
+            <a href="trangchu.html" style="color: #fff;">Trang chủ</a>
+            <hr style="height: 2px;">
+            <a href="#" style="color: #fff;">Giới thiệu </a>
+            <hr>
+            <a href="#" style="color: #fff;">Các khóa học</a>
+            <hr>
+            <a href="#" style="color: #fff;">Liên hệ</a>
+        </div>
+        <nav id="nav1" class="navBar" >
+            <a href="trangchu.html" style="color: #fff;" >Trang chủ</a>
+            <a href="#" style="color: #fff;">Giới thiệu </a>
+            <a href="#" style="color: #fff;">Các khóa học</a>
+            <a href="#" style="color: #fff;">Liên hệ</a>
+        </nav>
+    </header>
+    <main>
+        <h2 style="color: #fff;">Các hành tinh trong hệ mặt trời</h2>
+        <div id="listHT" class="listhanhtinh">
+            <div id="HT1" class="hanhtinhshort1"><img src="/images/saturn.png" alt=""></div>
+            <div id="HT2" class="hanhtinhshort2">
+                <img src="/images/mercury.png" alt="">
+                <img src="/images/venus.png" alt="">
+                <img src="/images/neptune.png" alt="">
+                <img src="/images/mars.png" alt="">
+            </div>
+        </div>
+
+        
+        <div class="container">
+            <h5 style="color: #fff;">Các khóa học khai giảng (Quý khách vui lòng liên hệ <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Văn phòng công ty</button>
+            để đăng kí)</h5>
+            <!-- Modal -->
+            <div class="modal fade" id="myModal" role="dialog">
+              <div class="modal-dialog">
+              
+                <!-- Modal content-->
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">Địa chỉ văn phòng</h4>
+                  </div>
+                  <div class="modal-body">
+                    <p>Văn phòng: văn phòng tầng 8, tòa nhà Universial, số 900A, đường Quang Trung, Cần Thơ</p>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                  </div>
+                </div>
+                
+              </div>
+            </div>
+            
+          </div>
+       <table id="longtable" border="2" style="background-color: #fff;">
+        <tr>
+            <td>Mã khóa học</td>
+            <td>Khóa học</td>
+            <td>Ngày khai giảng</td>
+        </tr>
+        <tr>		
+            <td>CB001</td>
+            <td>Thiên Văn học Cơ Bản</td>
+            <td>30/11/2021</td>
+        </tr>
+        <tr>	
+            <td>VT002</td>
+            <td>Vũ Trụ Học Cơ Bản</td>
+            <td>01/12/2021</td>
+        </tr>
+        <tr>		
+            <td>QS001</td>
+            <td>Học Máy Và Thiên Văn Học</td>
+            <td>15/12/2021</td>
+        </tr>
+       </table>
+
+       <table border="2" id="shorttable" style="background-color: #fff;" >
+        <tr>
+            <td> 
+                <b>Mã khóa học</b> <br>
+                <b>Khóa học</b> <br>
+                <b>Ngày khai giảng</b>
+            </td>
+            <td>
+                CB001 <br>
+                Thiên Văn học Cơ Bản <br>
+                30/11/2021
+            </td>
+        </tr>
+        <tr>
+            <td> 
+                <b>Mã khóa học</b> <br>
+                <b>Khóa học</b> <br>
+                <b>Ngày khai giảng</b>
+            </td>
+            <td>
+                VT002 <br>
+                Vũ Trụ Học Cơ Bản <br>
+                01/12/2021
+            </td>
+        </tr>
+        <tr>
+            <td> 
+                <b>Mã khóa học</b> <br>
+                <b>Khóa học</b> <br>
+                <b>Ngày khai giảng</b>
+            </td>
+            <td>
+                QS001 <br>
+                Học Máy Và Thiên Văn Học <br>
+                15/12/2021
+            </td>
+        </tr>
+       </table>
+       <script>
+        ready();
+       </script>
+    </main>
+    <footer>
+        Copyright 2021 Bản quyền thuộc về Công ty Astronomia.
+    </footer>
+</body>
+</html>
